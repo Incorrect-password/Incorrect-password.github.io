@@ -18,7 +18,7 @@ function onepageSetup() {
         // },
         loop: false,
         keyboard: true,
-        // responsiveFallback: 900,        // You can fallback to normal page scroll by defining the width of the browser in which
+        responsiveFallback: 900,
         // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
         // the browser's width is less than 600, the fallback will kick in.
         direction: "vertical" // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".
@@ -105,3 +105,4 @@ document.querySelector('#phone').addEventListener('click', function () {
 document.querySelector('#email').addEventListener('click', function () {
     alert('jvtdevelopers@hotmail.com');
 });
+screen.orientation.lock("portrait-primary");
