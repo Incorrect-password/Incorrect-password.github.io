@@ -3,6 +3,7 @@ $title: 5.5rem;
 $portfolioBorder: #4b515366;
 
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -50,7 +51,11 @@ body {
   height: 100vh;
   width: 0;
   z-index: 400;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
   transform: rotate(90deg);
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   background: none !important;
 }
@@ -74,6 +79,8 @@ footer {
     opacity: 0.75;
     cursor:pointer;
     &:hover {
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
       transform: scale(1.05);
     }
   }
@@ -83,8 +90,15 @@ footer {
   color: $text;
   z-index: 300;
   font-family:Courier;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 
   .frontPageHead {
@@ -108,8 +122,15 @@ footer {
   }
 }
 .page {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 100vw;
 }
@@ -138,6 +159,7 @@ footer {
   background: #eef0f4bb;
   border: 3px solid $portfolioBorder;
   height: 80vh;
+  -ms-flex-line-pack: center;
   align-content: center;
   border-radius: 10%;
   z-index: 400;
@@ -146,6 +168,8 @@ footer {
 
   p {
     font-size: 1.5rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 
@@ -160,6 +184,8 @@ footer {
   a {
     font-size: 2.5rem;
     color: #a0a0a0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin: 5px;
     text-decoration: none;
@@ -188,6 +214,8 @@ button {
   }
 
   &:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
     transform: scale(1.05);
   }
 }
@@ -221,11 +249,18 @@ button {
     right: 0;
     height: auto;
     width: 100vw;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
     transform: rotate(0deg);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 
   .navbar .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
   }
 
@@ -280,6 +315,8 @@ button {
 
     p {
       font-size: 1rem;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
     }
 
