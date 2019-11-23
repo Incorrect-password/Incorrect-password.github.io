@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="node_modules/normalize.css" rel="stylesheet" type="text/css">
+    <link href="app/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <link href="app/css/onepage-scroll.css" rel="stylesheet" type="text/css">
+    <script src="node_modules/jquery/dist/jquery.min.js" defer></script>
+    <script src="node_modules/typewriter-effect/dist/core.js" defer></script>
+    <script src="app/js/jquery.onepage-scroll.min.js" defer></script>
+    <script src="https://kit.fontawesome.com/b843e56dc5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" defer integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" defer integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="app/js/dist/main.js" defer></script>
+
+    <title>JVT Full Stack Development</title>
+</head>
+<body>
+<div class="matrix">
+    <div id="typewriter"></div>
+    <audio id="audio" controls>
+        <source src="https://www.fesliyanstudios.com/play-mp3/768">
+    </audio>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+    <div class="navbar-nav" id="navbarNav">
+        <span class="navSpan nav-item" id="page1">
+            <a class="nav-link" href="#1">J.V.T</a>
+        </span>
+        <span class="navSpan nav-item" id="page2">
+            <a class="nav-link" data-index="2"  href="#2">Profile</a>
+        </span>
+        <span class="navSpan nav-item" id="page3">
+            <a class="nav-link" href="#3">Portfolio</a>
+        </span>
+    </div>
+</nav>
+
+<div class="main">
+    <section class="page">
+        <div class="col-sm-6 container offset-md-6 title">
+            <h1 class="frontPageHead">James V Taylor</h1>
+            <h2 class="frontPageSub">Full Stack Developer</h2>
+        </div>
+        <footer>
+            <div class="container">
+                <a href="https://www.linkedin.com/in/jamesvtaylordev/" target="_blank">
+                    <i class="fab fa-linkedin fa-7x icon" id="linkedIn"></i>
+                </a>
+
+                <a href="https://github.com/Incorrect-password" target="_blank">
+                    <i class="fab fa-github fa-7x icon" id="git"></i>
+                </a>
+
+                <i class="fas fa-phone fa-7x icon" id="phone"></i>
+
+                <i class="fas fa-envelope fa-7x icon" id="email"></i>
+
+                <a href="app/images/JamesTaylorRésumé.pdf" download>
+                    <i class="fas fa-file-download fa-7x icon" id="cv"></i>
+                </a>
+            </div>
+        </footer>
+    </section>
+
+    <section class="page">
+            <div class="container col-sm-6 offset-md-5 aboutMe">
+                <h2>About Me</h2>
+                <p>Through Mayden I have received experience with all the software you would expect of a full stack
+                    developer with a focus on LAMP, SCSS and Typescript. I am a Certified Scrum Master with multiple
+                    agile projects under my belt and I am always looking for my next challenge so get in touch if you have
+                    one for me.</p>
+
+                <p>Having come through Mayden Academy at the ripe old age of 30 I feel I can bring to bear half a
+                    life time of experiences and the passion of someone who has found their calling in life.</p>
+
+                <p>I have a degree in Zoology and experience as an Ecologist both in the U.K. and Australia. I am
+                    also a qualified bicycle mechanic, fire warden, first aider, 4wd driver, experienced rock climber,
+                    cyclist and a keen naturalist, currently with a particular interest in Fungi.</p>
+            </div>
+    </section>
+
+    <section class="page portfolioPage">
+        <div class="portfolioScroll">
+            <div class="container-fluid">
+                <h2 class="pt-3">My work</h2>
+                <div id="portfolioCarousel" class="carousel slide" data-ride="carousel">
+                    <!--                    <ol class="carousel-indicators">-->
+                    <!--                        <li data-target="#portfolioCarousel" data-slide-to="0" class="active"></li>-->
+                    <!--                        <li data-target="#portfolioCarousel" data-slide-to="1"></li>-->
+                    <!--                        <li data-target="#portfolioCarousel" data-slide-to="2"></li>-->
+                    <!--                    </ol>-->
+                    <div class="carousel-inner justify-content-center align-content-center">
+                        <div class="carousel-item active" data-interval="10000">
+
+                            <div class="container portfolioTile d-block w-100 rounded-lg pt-5">
+                                <div class="row">
+                                    <!--                                    <a href="http://bit.ly/financeCalculator" target="_blank">-->
+                                    <img src="app/images/financeCalculatorPWA.png" class="projectImg rounded-lg col-sm-5" alt="A screen shot of the finance calculator app">
+                                    <!--                                    </a>-->
+                                    <h3>Finance Calculator <br> PWA</h3>
+                                </div>
+                                <div class="row">
+                                    <div class="projectDescription col-sm pr-5">
+                                        <p>I decided to make a finance calculator for future Mayden Academy students so that
+                                            they could easily
+                                            calculate how much they would have to pay back if they borrowed money to pay for the
+                                            course.</p>
+                                        <p>I made it a PWA so that they could use it as a lightweight app that would still
+                                            function even if
+                                            they did not have access to the internet. It is fully responsive and even has a
+                                            hideaway menu
+                                            in the mobile version.</p>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <ul class="list-group list-group-horizontal">
+                                        <li class="list-group-item">Bootstrap</li>
+                                        <li class="list-group-item">SCSS</li>
+                                        <li class="list-group-item">TypeScript</li>
+                                        <li class="list-group-item">GulpJs</li>
+                                        <li class="list-group-item">Babel</li>
+                                    </ul>
+                                </div>
+                                <div class="row justify-content-around pt-5">
+                                    <button type="button" class="btn btn-dark"><a href="https://github.com/Incorrect-password/financeCalculator" target="_blank">Github</a></button>
+                                    <button type="button" class="btn btn-dark"><a href="http://bit.ly/financeCalculator" target="_blank">Live Version</a></button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="container portfolioTile d-block w-100 rounded-lg pt-5 ">
+                                <div class="row">
+                                    <!--                                    <a href="http://bit.ly/cobrapaintapp" target="_blank">-->
+                                    <img src="app/images/cobraPaintJS.png" class="projectImg rounded-lg col-sm-5" alt="A picture of a smiling face drawn on the cobra paint app.">
+                                    <!--                                    </a>-->
+                                    <h3>Cobra Paint</h3>
+                                </div>
+                                <div class="row">
+                                    <div class="projectDescription col-sm pr-5">
+                                        <p>As the scrum master for an Agile/Scrum team of 8 we made a painting app that allows you to pick your colour,
+                                            delete mistakes and pick your canvas size.</p>
+                                        <p>It primarily focuses on the use of JavaScript to respond to user commands and provided excellent entry into using
+                                            github as a team. We focused on developing paired programming and peer review skills as we built.</p>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <ul class="list-group list-group-horizontal">
+                                        <li class="list-group-item">HTML</li>
+                                        <li class="list-group-item">CSS</li>
+                                        <li class="list-group-item">JavaScript</li>
+                                        <li class="list-group-item">Github</li>
+                                        <li class="list-group-item">Scrum Master</li>
+
+                                    </ul>
+                                </div>
+                                <div class="row justify-content-around pt-5">
+                                    <button type="button" class="btn btn-dark"><a href="https://github.com/Mayden-Academy/2019-aug-JS-paint" target="_blank">Github</a></button>
+                                    <button type="button" class="btn btn-dark"><a href="http://bit.ly/cobrapaintapp" target="_blank">Live Version</a></button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="container portfolioTile d-block w-100 rounded-lg pt-5 ">
+                                <div class="row">
+                                    <!--                                    <a href="http://bit.ly/breadandifits" target="_blank">-->
+                                    <img src="app/images/breadAndIfits.png" class="projectImg rounded-lg col-sm-5"
+                                         alt="a screen shot of the bread and ifits app">
+                                    <!--                                    </a>-->
+                                    <h3>Bread and Ifits</h3>
+                                </div>
+                                <div class="row">
+                                    <div class="projectDescription col-sm pr-5">
+                                        <p>As a member of an Agile/Scrum team I contributed to the construction of a web app that takes
+                                            user selected ingredients and returns a list of recipes that contain those ingredients.</p>
+                                        <p>The app was built using TypeScript and SCSS and used a web based API to provide the recipes, accessed
+                                            using PHP.
+                                            We built it using a Object Orientated structure with an emphasis on SOLID principles</p>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <ul class="list-group list-group-horizontal">
+                                        <li class="list-group-item">Bootstrap</li>
+                                        <li class="list-group-item">SCSS</li>
+                                        <li class="list-group-item">TypeScript</li>
+                                        <li class="list-group-item">OOP</li>
+                                        <li class="list-group-item">PHP</li>
+                                        <li class="list-group-item">MySQL</li>
+                                    </ul>
+                                </div>
+                                <div class="row justify-content-around pt-5">
+                                    <button type="button" class="btn btn-dark"><a href="https://github.com/Mayden-Academy/2019-Aug-Bread-and-ifit-cobras" target="_blank">Github</a></button>
+                                    <button type="button" class="btn btn-dark"><a href="http://bit.ly/breadandifits" target="_blank">Live Version</a></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container portfolioTile d-block w-100 rounded-lg pt-5 ">
+                                <div class="row">
+                                    <img src="app/images/academyPortal.png" class="projectImg rounded-lg col-sm-5" alt="image of php code" id="academyPortalImg">
+                                    <h3>Academy Portal</h3>
+                                </div>
+                                <div class="row">
+                                    <div class="projectDescription col-sm pr-5">
+                                        <p>As a test of our abilities to follow MVC principles using Slim we were tasked as working as an agile team to add new features and improve the Mayden Academy
+                                            portal that the Academy use to process their new applicants, hiring partners and events. We used PHP and MySQL for the back end programming and JS on the front end.</p>
+                                        <p>I used paired programming to add a modal to the hiring partners so that they could be displayed with the different contacts
+                                            at the company. We also undertook a number of hotfixes as the ability to add new
+                                            applicants and hiring partners had been compromised.</p>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <ul class="list-group list-group-horizontal">
+                                        <li class="list-group-item">Slim</li>
+                                        <li class="list-group-item">PHP</li>
+                                        <li class="list-group-item">MySQL</li>
+                                        <li class="list-group-item">JavaScript</li>
+                                        <li class="list-group-item">OOP</li>
+                                        <li class="list-group-item">MVC</li>
+
+                                    </ul>
+                                </div>
+                                <div class="row justify-content-around pt-1">
+                                    <button type="button" class="btn btn-dark"><a href="https://github.com/Mayden-Academy/AcademyPortal" target="_blank">Github</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev carousel-changer"  href="#portfolioCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" id="prev" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next carousel-changer" href="#portfolioCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" id="next" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+</html>
