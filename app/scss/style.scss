@@ -266,7 +266,7 @@ button {
 
   footer {
     position: absolute;
-    top: 90vh;
+    top: 80vh;
     width: 100vw;
 
     .icon {
@@ -327,12 +327,16 @@ button {
     }
 
     h3 {
-      font-size: 3rem;
+      font-size: 2rem;
       padding-top: 1rem;
     }
 
     .projectDescription {
       padding-top: 1rem;
+    }
+
+    button {
+      font-size: 1.5rem;
     }
   }
 
