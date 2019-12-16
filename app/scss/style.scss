@@ -245,24 +245,25 @@ button {
   }
 
   .navbar#navbar {
-    position: fixed;
-    right: 0;
-    height: auto;
-    width: 100vw;
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    display: none;
+    //position: fixed;
+    //right: 0;
+    //height: auto;
+    //width: 100vw;
+    //-webkit-transform: rotate(0deg);
+    //-ms-transform: rotate(0deg);
+    //transform: rotate(0deg);
+    //-webkit-box-pack: center;
+    //-ms-flex-pack: center;
+    //justify-content: center;
   }
 
-  .navbar .navbar-nav {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
+  //.navbar .navbar-nav {
+  //  -webkit-box-orient: horizontal;
+  //  -webkit-box-direction: normal;
+  //  -ms-flex-direction: row;
+  //  flex-direction: row;
+  //}
 
   footer {
     position: absolute;
