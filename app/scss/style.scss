@@ -344,5 +344,10 @@ button {
     border-top: 3px solid $portfolioBorder;
     border-bottom: 3px solid $portfolioBorder;
     background: $portfolioBorder;
+
+    #academyPortalImg {
+      justify-content: center;
+      width: 80%;
+    }
   }
 }
