@@ -1,4 +1,3 @@
-//import * as $ from 'jquery';
 messageCheck();
 onepageSetup();
 /**
@@ -105,4 +104,3 @@ document.querySelector('#phone').addEventListener('click', function () {
 document.querySelector('#email').addEventListener('click', function () {
     alert('jvtdevelopers@hotmail.com');
 });
-screen.orientation.lock("portrait-primary");
