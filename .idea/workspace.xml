@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cbf6c5e-7fbb-4442-a761-f7ff4587d9ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/images/JamesVTaylorRésumé.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/JamesTaylorRésumé.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="172">
+              <caret line="95" column="28" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -34,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3737">
-              <caret line="239" column="35" selection-start-line="239" selection-start-column="35" selection-end-line="239" selection-end-column="39" />
+            <state relative-caret-position="399">
+              <caret line="244" column="3" selection-start-line="244" selection-start-column="3" selection-end-line="244" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -43,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="2109">
               <caret line="111" selection-start-line="111" selection-end-line="111" />
             </state>
           </provider>
@@ -224,17 +220,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7320000" />
+    <option name="totallyTimeSpent" value="8460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12732475" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.12875536" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49928468" visible="true" weight="0.32939634" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49928468" visible="true" weight="0.32939634" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007153" side_tool="true" weight="0.32939634" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
@@ -268,8 +264,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3737">
-          <caret line="239" column="35" selection-start-line="239" selection-start-column="35" selection-end-line="239" selection-end-column="39" />
+        <state relative-caret-position="399">
+          <caret line="244" column="3" selection-start-line="244" selection-start-column="3" selection-end-line="244" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -282,15 +278,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="2109">
           <caret line="111" selection-start-line="111" selection-end-line="111" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="172">
+          <caret line="95" column="28" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
         </state>
       </provider>
     </entry>
