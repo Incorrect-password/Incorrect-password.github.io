@@ -199,6 +199,26 @@ footer {
   .projectDescription {
     padding-top: 2rem;
   }
+
+  #new.new {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 5px;
+    border: 1px solid #ffffff;
+    background-color: #ff0000;
+    width: 10%;
+    position: absolute;
+    left: 2px;
+    z-index: 10000;
+    transform: rotate(-10deg);
+    border-radius: 55% 45% 55% 45% / 55% 45% 55% 45%;
+    box-shadow: 3px 5px #444444;
+  }
+
+  #spotTheDogRow {
+    position: relative;
+  }
 }
 
 .projectImg {
@@ -208,15 +228,19 @@ footer {
 
 button {
 
+  box-shadow: 3px 4px #888888;
+
   a:hover {
     text-decoration: none;
     color: #a0a0a0;
   }
 
   &:hover {
+    box-shadow: 4px 6px #888888;
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
+
   }
 }
 
@@ -338,6 +362,10 @@ button {
 
     button {
       font-size: 1.5rem;
+    }
+
+    #new.new {
+      width: 100px;
     }
   }
 

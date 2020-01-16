@@ -72,7 +72,8 @@
             <div class="container col-sm-6 offset-md-5 aboutMe">
                 <h2>About Me</h2>
                 <p>Through Mayden I have received experience with all the software you would expect of a full stack
-                    developer with a focus on REST API's, LAMP, SCSS and Typescript. I am a Certified Scrum Master with multiple
+                    developer with a focus on OOP and MVC in a LAMP stack. It also included working with RESTful APIs,
+                    TypeScript, SCSS and Bootstrap to name a few. I am a Certified Scrum Master with multiple
                     agile projects under my belt and I am always looking for my next challenge so get in touch if you have
                     one for me.</p>
 
@@ -93,10 +94,10 @@
                     <div class="carousel-inner justify-content-center align-content-center">
                         <div class="carousel-item active" data-interval="10000">
 
-                            <div class="carousel-item">
                                 <div class="container portfolioTile d-block w-100 rounded-lg pt-5 ">
-                                    <div class="row">
-                                        <img src="app/images/mario.png" class="projectImg rounded-lg col-sm-5 col-xs-10" alt="image of mario cart" id="spotTheDog">
+                                    <div class="row" id="spotTheDogRow">
+                                        <div class="new" id="new">New for 2020</div>
+                                        <img src="app/images/spotTheDog.png" class="projectImg rounded-lg col-sm-5 col-xs-10" alt="image of mario cart" id="spotTheDog">
                                         <h3>Spot The Dog <br>IndexedDB PWA</h3>
                                     </div>
                                     <div class="row">
@@ -119,9 +120,69 @@
                                     </div>
                                     <div class="row justify-content-around pt-1">
                                         <button type="button" class="btn btn-dark"><a href="https://github.com/Incorrect-password/spotTheDog" target="_blank">Github</a></button>
-                                        <button type="button" class="btn btn-dark"><a href="http://bit.ly/financeCalculator" target="_blank">Live Version</a></button>
+                                        <button type="button" class="btn btn-dark"><a href="https://dev.maydenacademy.co.uk/students/2019/aug/James/spotTheDog/app/" target="_blank">Live Version</a></button>
 
                                     </div>
+                                </div>
+                            </div>
+
+                        <div class="carousel-item">
+                            <div class="container portfolioTile d-block w-100 rounded-lg pt-5 ">
+                                <div class="row">
+                                    <img src="app/images/academyPortal.png" class="projectImg rounded-lg col-sm-5 col-xs-10" alt="image of php code" id="academyPortalImg">
+                                    <h3>Academy Portal</h3>
+                                </div>
+                                <div class="row">
+                                    <div class="projectDescription col-sm pr-5">
+                                        <p>As a test of our abilities to follow MVC principles using Slim we were tasked as working as an agile team to add new features and improve the Mayden Academy
+                                            portal that the Academy use to process their new applicants, hiring partners and events. We used PHP and MySQL for the back end programming and JS on the front end.</p>
+                                        <p>I used paired programming to add a modal to the hiring partners so that they could be displayed with the different contacts
+                                            at the company. We also undertook a number of hotfixes as the ability to add new
+                                            applicants and hiring partners had been compromised.</p>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <ul class="list-group list-group-horizontal">
+                                        <li class="list-group-item">Slim</li>
+                                        <li class="list-group-item">PHP</li>
+                                        <li class="list-group-item">MySQL</li>
+                                        <li class="list-group-item">JavaScript</li>
+                                        <li class="list-group-item">OOP</li>
+                                        <li class="list-group-item">MVC</li>
+
+                                    </ul>
+                                </div>
+                                <div class="row justify-content-around pt-1">
+                                    <button type="button" class="btn btn-dark"><a href="https://github.com/Mayden-Academy/AcademyPortal" target="_blank">Github</a></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container portfolioTile d-block w-100 rounded-lg pt-5 ">
+                                <div class="row">
+                                    <img src="app/images/mario.png" class="projectImg rounded-lg col-sm-5 col-xs-10" alt="image of mario cart" id="marioCart">
+                                    <h3>Mario Mania <br> RESTful API</h3>
+                                </div>
+                                <div class="row">
+                                    <div class="projectDescription col-sm pr-5">
+                                        <p>We were tasked to build a RESTful API that can record players and results for Mario Kart.
+                                        It can add new users, record results and you can request results for each track.</p>
+                                        <p>I was the Scrum Master for the project and though were only a small team we stuck the Agile principles and scrum framework.
+                                        We used Node.js to create the API and kept it as RESTful as possible. We decided to use MySQL due to the fact that
+                                        we had relational data which was an interesting change with Node.js as we had only used MongoDB with it in the past.</p>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <ul class="list-group list-group-horizontal">
+                                        <li class="list-group-item">Scrum Master</li>
+                                        <li class="list-group-item">Node.js</li>
+                                        <li class="list-group-item">MySQL</li>
+                                        <li class="list-group-item">Github</li>
+                                    </ul>
+                                </div>
+                                <div class="row justify-content-around pt-1">
+                                    <button type="button" class="btn btn-dark"><a href="https://github.com/Mayden-Academy/2019-aug-mario-mania" target="_blank">Github</a></button>
                                 </div>
                             </div>
                         </div>
@@ -157,67 +218,6 @@
                                 <div class="row justify-content-around pt-3">
                                     <button type="button" class="btn btn-dark"><a href="https://github.com/Incorrect-password/financeCalculator" target="_blank">Github</a></button>
                                     <button type="button" class="btn btn-dark"><a href="http://bit.ly/financeCalculator" target="_blank">Live Version</a></button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item">
-                            <div class="container portfolioTile d-block w-100 rounded-lg pt-5 ">
-                                <div class="row">
-                                    <img src="app/images/mario.png" class="projectImg rounded-lg col-sm-5 col-xs-10" alt="image of mario cart" id="marioCart">
-                                    <h3>Mario Mania <br> RESTful API</h3>
-                                </div>
-                                <div class="row">
-                                    <div class="projectDescription col-sm pr-5">
-                                        <p>We were tasked to build a RESTful API that can record players and results for Mario Kart.
-                                        It can add new users, record results and you can request results for each track.</p>
-                                        <p>I was the Scrum Master for the project and though were only a small team we stuck the Agile principles and scrum framework.
-                                        We used Node.js to create the API and kept it as RESTful as possible. We decided to use MySQL due to the fact that
-                                        we had relational data which was an interesting change with Node.js as we had only used MongoDB with it in the past.</p>
-                                    </div>
-                                </div>
-                                <div class="row justify-content-center">
-                                    <ul class="list-group list-group-horizontal">
-                                        <li class="list-group-item">Scrum Master</li>
-                                        <li class="list-group-item">Node.js</li>
-                                        <li class="list-group-item">MySQL</li>
-                                        <li class="list-group-item">Github</li>
-                                    </ul>
-                                </div>
-                                <div class="row justify-content-around pt-1">
-                                    <button type="button" class="btn btn-dark"><a href="https://github.com/Mayden-Academy/2019-aug-mario-mania" target="_blank">Github</a></button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item">
-                            <div class="container portfolioTile d-block w-100 rounded-lg pt-5 ">
-                                <div class="row">
-                                    <img src="app/images/academyPortal.png" class="projectImg rounded-lg col-sm-5 col-xs-10" alt="image of php code" id="academyPortalImg">
-                                    <h3>Academy Portal</h3>
-                                </div>
-                                <div class="row">
-                                    <div class="projectDescription col-sm pr-5">
-                                        <p>As a test of our abilities to follow MVC principles using Slim we were tasked as working as an agile team to add new features and improve the Mayden Academy
-                                            portal that the Academy use to process their new applicants, hiring partners and events. We used PHP and MySQL for the back end programming and JS on the front end.</p>
-                                        <p>I used paired programming to add a modal to the hiring partners so that they could be displayed with the different contacts
-                                            at the company. We also undertook a number of hotfixes as the ability to add new
-                                            applicants and hiring partners had been compromised.</p>
-                                    </div>
-                                </div>
-                                <div class="row justify-content-center">
-                                    <ul class="list-group list-group-horizontal">
-                                        <li class="list-group-item">Slim</li>
-                                        <li class="list-group-item">PHP</li>
-                                        <li class="list-group-item">MySQL</li>
-                                        <li class="list-group-item">JavaScript</li>
-                                        <li class="list-group-item">OOP</li>
-                                        <li class="list-group-item">MVC</li>
-
-                                    </ul>
-                                </div>
-                                <div class="row justify-content-around pt-1">
-                                    <button type="button" class="btn btn-dark"><a href="https://github.com/Mayden-Academy/AcademyPortal" target="_blank">Github</a></button>
                                 </div>
                             </div>
                         </div>
