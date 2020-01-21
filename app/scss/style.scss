@@ -135,14 +135,7 @@ footer {
   width: 100vw;
 }
 
-.portfolioPage {
-  //background-image: url("https://images.unsplash.com/photo-1555134473-a8e88487e828?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80");
-  //background-image: url("https://images.unsplash.com/photo-1524706617554-26ee848fd76a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2800&q=80");
-  //background-size: cover;
-  //background-repeat: no-repeat;
-  //background-color: #eef0f4bb;
-
-  .container-fluid {
+.container-fluid {
     width: auto;
     height: 100vh;
     text-align: center;
@@ -273,24 +266,7 @@ button {
 
   .navbar#navbar {
     display: none;
-    //position: fixed;
-    //right: 0;
-    //height: auto;
-    //width: 100vw;
-    //-webkit-transform: rotate(0deg);
-    //-ms-transform: rotate(0deg);
-    //transform: rotate(0deg);
-    //-webkit-box-pack: center;
-    //-ms-flex-pack: center;
-    //justify-content: center;
   }
-
-  //.navbar .navbar-nav {
-  //  -webkit-box-orient: horizontal;
-  //  -webkit-box-direction: normal;
-  //  -ms-flex-direction: row;
-  //  flex-direction: row;
-  //}
 
   footer {
     position: absolute;
