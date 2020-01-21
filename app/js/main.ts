@@ -1,5 +1,7 @@
-messageCheck()
-onepageSetup()
+// messageCheck()
+onepageSetup();
+backgroundSwitch();
+
 
 /**
  * sets up onepage-scroll and adds event listeners to the custom nav
@@ -98,9 +100,8 @@ function stopTypeSound() {
  * Fades the opening black screen into main page.
  */
 function backgroundSwitch() {
-    (<JQuery>$('.matrix')).fadeOut(3000, function() {
-        //make it 4000
-        (<JQuery>$('.title')).fadeIn(5000)
+    (<JQuery>$('.matrix')).fadeOut(1000, function() {
+        (<JQuery>$('.title')).fadeIn(3000)
     })
 };
 document.querySelector('#phone').addEventListener('click', function() {
