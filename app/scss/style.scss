@@ -226,6 +226,7 @@ footer {
   width: 60%;
   box-shadow: 4px 7px 5px #444444;
   border: 1px solid #444444;
+  margin-left: 15px;
 }
 
 button {
@@ -375,6 +376,7 @@ button {
     border-top: 3px solid $portfolioBorder;
     border-bottom: 3px solid $portfolioBorder;
     background: $portfolioBorder;
+    margin-left: 0;
 
     #academyPortalImg {
       justify-content: center;
